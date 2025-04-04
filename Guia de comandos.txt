@@ -1,9 +1,13 @@
-git init = criar o repositório local
+git init === criar o repositório local
 
 git remote add origin 'Link do github'
 
-git add .
+git add . === Adiciona as alterações ao índice
 
-git commit - m "Mensagem de commit"
+git commit - m "Mensagem de commit" === Cria um commit com uma mensagem descritiva
 
-git push origin main‎
+git push origin main === Envia o código para o GitHub
+
+*agora estamos na branch nova
+
+git‎ checkout -b dev
